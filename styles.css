@@ -98,7 +98,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
-.showcase-content {
+.headercontent {
     position: relative;
     z-index: 2;
     margin: auto;
@@ -110,14 +110,14 @@ img {
 
 }
 
-.showcase-content h1 {
+.headercontent h1 {
     font-weight: 700;
     font-size: 5.2rem;
     line-height: 1.1;
     margin: 0 0 2rem;
 }
 
-.showcase-content p {
+.headercontent p {
     text-transform: uppercase;
     color: white;
     font-weight: 400;
