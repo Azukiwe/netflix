@@ -1,5 +1,3 @@
-/* UNIVERSAL SELECTORS */
-/* Creating variables to use throughout my website */
 :root{
     --primary-color: #e50914;
     --dark-color: #141414;
@@ -98,7 +96,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
-.headercontent {
+.showcase-content {
     position: relative;
     z-index: 2;
     margin: auto;
@@ -110,14 +108,14 @@ img {
 
 }
 
-.headercontent h1 {
+.showcase-content h1 {
     font-weight: 700;
     font-size: 5.2rem;
     line-height: 1.1;
     margin: 0 0 2rem;
 }
 
-.headercontent p {
+.showcase-content p {
     text-transform: uppercase;
     color: white;
     font-weight: 400;

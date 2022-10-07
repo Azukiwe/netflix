@@ -1,146 +1,186 @@
 <!DOCTYPE html>
+<!-- Defines the document type -->
 <html lang="en">
+    <!-- Defines the root of an html document -->
 <head>
+    <!-- Contains the metadata/information for the document -->
     <meta charset="UTF-8">
+    <!-- Defines the metadat about an html document -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-   
-   
-    <title>Netflix</title>
-    <!--Defines the title of the document-->
+    
+    <title>NETFLIX</title>
+    <!-- Defines the title of the document -->
 </head>
 <body>
-    <!--Defines the document's body/content of the documnet-->
-    <header class="showcase">
-<div class="showcase-top">
-<img src="logo.png" alt="" srcset="">
-<a href="#">SignIn</a>
-    <!--defines ahyperlink-->
-</div>
-    <div class="headercontent">
-        <!--Defines HTML headings-->
-      <h1> <b>see whats next</b></h1> 
-      <!--defines a paragraph-->
-      <p><h2>Watch anywhere.Cancel anytime</h2></p>
-      <a href="#">Watch free for 30 days</a>
-    </div>
+    <!-- Defines the documents's body/ content of the document  -->
+    <header class="showcase">    
+        <!-- The header tag represents the header/top section of the document -->
+        <div class="showcase-top">
+            <!-- Defines a section in a document  -->
+            <img src="./img/logo.png" alt="logo">
+            <!-- Defines an image  -->
+            <a href="#" class="btn btn-rounded">SignIn</a>
+            <!-- Defines a hyper link  -->
+        </div>
+        <div class="showcase-content ">
+            <!-- Define HTML headings -->
+            <h1>See what's next</h1>
+            <!--  Defines a paragraph  -->
+            <p>Watch anywhere. Cancel anytime</p>
+            <a href="#" class="btn btn-xl">
+                Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i>
+            </a>
+        </div>
     </header>
-    <!--header content ends here-->
+    <!-- Defines a seciton in a document  -->
     <section class="tabs">
+
         <div class="container">
-            <!--tab 1-->
-            <div id="tab-1"  class="tabs-item tab-border">
-                <h2>Tab 1</h2>
-
+            <!-- Tab 1 -->
+            <div id="tab-1" class="tab-item tab-border"> 
+                <h3>Tab1</h3>
+                <!-- Defines a part of text in an alternate voice or mood -->
                 <i class="fas fa-door-open fa-3x"></i>
-        <p class="hide-sm">Cancel Anytime</p>
+                <p class="hide-sm">Cancle anytime</p>
             </div>
-            <!--tab 2-->
-            <div id="tab-2" class="tab-item">
-                <h2>Tab2</h2>
 
-                <i class="fas fa-door-open fa-3x"></i>
+            <!-- Tab 2 -->
+            <div id="tab-2" class="tab-item" >
+                <h3>Tab2</h3>
+
+                <i class="fas fa-tablet-alt fa-3x"></i>
                 <p class="hide-sm">Watch anywhere</p>
             </div>
-            <!--Tab 3-->
-    <div id="tab-3" class="tab-item">
-    <section class="tab-content"
-    <div class="container">
-        <!-- Tab content 1 -->
-        <div id="tab-1-content" class="tab-content-item show" >
-            <div class="tab-1-content-inner">
-                <div>
-                    <h4 class="text-lg">Tab content 1</h4>
-                    <p class="text-lg">
-                        If you decide This isn't for you - no problem. No commitment. Cancel online anytime
 
-                    </p>
-                    <a class="btn btn-lg" href="#">Watch free for 30 days</a>
+            <!-- Tab 3 -->
+            <div id="tab-3" class="tab-item">
+                <h3>Tab3</h3>
 
-                </div>
-                <img src="./img/tab-content-1.png" alt="tab content">
+                <i class="fas fa-tags fa-3x "></i>
+                <p class="hide-sm">Pick your price</p>
             </div>
         </div>
+    </section>
+    <section class="tab-content">
+        <div class="container">
+            <!-- Tab content 1 -->
+            <div id="tab-1-content" class="tab-content-item show" >
+                <div class="tab-1-content-inner">
+                    <div>
+                        <h4 class="text-lg">Tab content 1</h4>
+                        <p class="text-lg">
+                            If you decide This isn't for you - no problem. No commitment. Cancel online anytime
 
-        <!-- Tab content 2 -->
-        <div class="image">
-        <img src="cancel.jpg" alt="" srcset="">
-    </div>
-    <div class="tab"><h3><b>Tab 2 content</b></h3> <h5>Watch tv shows and movies anytime,anywhere-Personalized for you</h5>
-        <a href="#">watch free for 30 days</a>
-    </div>
+                        </p>
+                        <a class="btn btn-lg" href="#">Watch free for 30 days</a>
 
-    <div class="image">
-        <img src="img/tab-content-2-1.png" alt="" srcset="">
-    <div class="cl">Watch on your TV</div>
-    <div class="cl">Smart TXs,Playstation,Xbox,Chromocaset,Apple TV,Blu-ray players and more</div>
-    <div class="image">
-        <img src="img/tab-content-2-2.png" alt="" srcset="">
-        <div class="cl">watch instantly or download for later</div>
-        <div class="cl">Available on phone or tablet,Wherever you go</div>
-    </div>
-<div class="image">
-    <img src="img/tab-content-2-3.png" alt="" srcset="">s
-</div>
-<div class="cl">Use any Computer</div>
-<div class="cl">Watch now on Nextclone.com </div>
-<div class="tab"><h3><b>tab 3 content</b></h3> <h5>Choose one plan and watch everything on Nextclone</h5></div>
-<a href="#">Watch free for 30 days</a>
-<!--Define a table------------->
-<table class="table">
-<!--Group the header content of the table-->
-<thead>
-<!--define a row in the table-->
-<tr>
-    <!--Define aheader cell in a table-->
-    <th></th>
-    <th>Basic</th>
-    <th>Standard</th>
-    <th>Premium</th>
-</tr>
-</thead>
-<tbody>
-    <tr>
-        <td>Monthly price after free month ends on 6/9/19</td>
-        <td>R60</td>
-        <td>R100</td>
-        <td>R150</td>
-    </tr>
-    <tr>
-        <td>HD Available</td>
-    <td><i class="fas fa-times"></i></td>
-    <td><i class="fas fa-check"></i></td>
-    <td><i class="fas fa-check"></i></td>
-</tr>
-<tr>
-    <td>Ultra HD Available</td>
-    <td><i class="fas fa-check"></i></td>
-    <td><i class="fas fa-check"></i></td>
-    <td><i class="fas fa-check"></i></td>
-    </tr>
-    <tr>
-        <td>Sceeens you can watch on at the same time</td>
-        <td>1</td>
-        <td>2</td>
-        <td>4</td>
-    </tr>
-    <tr>
-        <td>Watch on your laptop, TV, phone and tablet</td>
-        <td><i class="fas fa-check"></i></td>
-        <td><i class="fas fa-check"></i></td>
-        <td><i class="fas fa-check"></i></td>                            
-    </tr>
-    <tr>
-        <td>Cancel anytime</td>
-        <td><i class="fas fa-check"></i></td>
-        <td><i class="fas fa-check"></i></td>
-        <td><i class="fas fa-check"></i></td>
-    </tr>
-</tbody>
-</table>
+                    </div>
+                    <img src="./img/tab-content-1.png" alt="tab content">
+                </div>
+            </div>
 
-></li>
+            <!-- Tab content 2 -->
+            <div id="tab-2-content" class="tab-content-item">
+                <div class="tab-2-content-top">
+                    <h4>Tab content 1</h4>
+                    <p class="text-lg">
+                        Watch TV showa and movies anytime, anywhere -personalized for you.
+                    </p>
+                    <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+                </div>
+                <div class="tab-2-content-bottom">
+                    <div>
+                        <img src="img/tab-content-2-1.png" alt="">
+                        <p class="text-md">Watch on your TV</p>
+                        <p class="text-dark">
+                            Smart TVs, PlayStation, Xbox, Chromecaset, Apple TV, Blu-ray players and more.
+                        </p>
+                    </div>
+
+                    <div>
+                        <img src="img/tab-content-2-2.png" alt="">
+                        <p class="text-md">Watch instantly or download for later</p>
+                        <p class="text-dark">
+                            Available on phone and tablet, wherever you go.
+                        </p>
+                    </div>
+
+                    <div>
+                        <img src="img/tab-content-2-3.png" alt="">
+                        <p class="text-md">Use any computer</p>
+                        <p class="text-dark">
+                            Watch right on NextClone.com
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+                <!-- Tab 3 content -->
+                <div id="tab-3-content" class="tab-content-item">
+                    <div class="text-center">
+                        <h4>Tab content 3</h4>
+                        <p class="text-lg">Choose one plan and watch everything on NextClone</p>
+                        <a href="#" class="btn btn-lg">Watch free for 30days</a>
+                    </div>
+                    <!-- Defines a table  -->
+                    <table class="table">
+                        <!-- Groups the header content in a table -->
+                        <thead>
+                            <!-- Defines a row in a table -->
+                            <tr>
+                                <!-- Defines a header cell in a table -->
+                                <th></th>
+                                <th>Basic</th>
+                                <th>Standard</th>
+                                <th>Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monthly price after free month ends on 6/19/19</td>
+                                <td>R60</td>
+                                <td>R100</td>
+                                <td>R150</td>
+                            </tr>
+                            <tr>
+    
+                                <td>HD Available</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Ultra HD Available</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Screens you can watch on at the same time</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>Watch on your laptop, TV, phone and tablet</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>                            
+                            </tr>
+                            <tr>
+                                <td>Cancel anytime</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+       ></li>
           </ul>
           <ul>
             <li><a href="#">Media Center</a></li>
@@ -170,12 +210,10 @@
             <li><a href="#">Account</a></li>
             <li><a href="#">Redeem Gift Cards</a></li>
             <li><a href="#">Privacy</a></li>
-            <li><a href="#">Speed Test</a
-                <footer><
+            <li><a href="#">Speed Test</a>
+            </footer>
 
-                    <script src="./index.js"></script>
-                    <script src="https://kit.fontawesome.com/850ca6a355.js" crossorigin="anonymous"></script>
-
-
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/850ca6a355.js" crossorigin="anonymous"></script>
 </body>
 </html>
